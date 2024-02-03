@@ -16,4 +16,4 @@
 
 const countBy = (x, n) => Array(n).fill().map((_, i) => x * (i + 1)); // kita bisa mengganti keyword el dengan _ karena kita tidak terlalu perlu    
 
-console.log(countBy(4,4)); // [1, 2, 3, 4, 5]
+console.log(countBy(2,5)); // [1, 2, 3, 4, 5]
